@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>input</title>
+	<style></style>
+</head>
+<body>
+	<form action="" method="post"><!-- 
+	action:数据提交地址
+	method: 数据提交方式
+		* get    速度快，不安全
+		* post   速度慢，安全 -->
+		<label for="">用户名</label>
+		<input type="text" placeholder="手机号/邮箱"
+		maxlength="5" ">
+
+		<br>
+
+		<label for="">密&nbsp;&nbsp;&nbsp;码</label>
+		<input type="password" value="1234567">
+
+		<br>
+
+		<label for="">手机号</label>
+		<input type="tel" value="123456789" readonly>
+
+		<br>
+
+		<label for="">邮&nbsp;&nbsp;&nbsp;箱</label>
+		<input type="email">
+
+		<br>
+		<label for="">日期</label>
+		<input type="date">
+
+		<br>
+
+		<label for="">头像</label>
+		<input type="file">  <!-- 文件类型 -->
+
+		<br>
+
+		<label for="">地址</label>
+		<input type="url">
+
+		<br>
+
+		<label for="">职位1</label>
+		<input type="radio" name="zhiwei"checkbox>   <!-- 单选按钮 -->
+
+		<label for="">职位2</label>
+		<input type="radio" name="zhiwei">   <!-- 单选按钮 -->
+
+		<label for="">职位3</label>
+		<input type="radio" name="zhiwei">   单选
+
+		<br>
+
+		<label for="">女</label>
+		<input type="redio" name="sex">  <!--  单选按钮 -->
+
+		<label for="">男</label>
+		<input type="redio" name="sex">   <!-- 必须加name状态 -->  
+
+		br
+
+		<label for=""></label>
+		<input type="checkbox">骑车    <!-- 多选按钮 -->
+		<input type="checkbox">旅行
+		<input type="checkbox">唱歌
+
+		<br>
+		<label for="">多行文本</label>
+		<textarea name="" id="" cols="30" rows="10">
+		</textarea>
+
+		<br>
+
+		<label for="">下拉框</label>
+		<select name="" id="" multiple="">
+			<option value="">1</option>
+			<option value="">2</option>
+			<option value="">3</option>
+		</select>
+
+
+		<input type="submit">
+	</form>
+</body>
+</html>

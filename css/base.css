@@ -1,0 +1,17 @@
+/*
+* @Author: 17695
+* @Date:   2017-12-12 14:57:37
+* @Last Modified by:   17695
+* @Last Modified time: 2017-12-15 15:58:41
+*/
+*{
+	margin: 0;  /*body = 8px */
+	padding: 0;	/* 列表，buttom */
+	text-decoration: none;/* a 标签的下划线*/
+	outline: none;/* button点击时候的描边 外轮廓*/
+	list-style: none;/* 列表标签的小圆点 */
+}
+img{
+	width: 100%;
+	height: 100%;
+}
